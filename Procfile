@@ -1,3 +1,2 @@
+web: vendor/bin/heroku-php-nginx -C rewrite.conf www/
 
-
-web: vendor/bin/heroku-php-nginx -C nginx_app.conf /public
